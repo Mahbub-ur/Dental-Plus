@@ -465,7 +465,7 @@
                 <h1>Our Happy Clients</h1>
                 <img src="images/icon.png" class="img-fluid" alt="">
                 <p>Corem ipsum dolor what a amet, consectetuer adipiscing elit diam an nonummy laoreet dolore magna aliquam erat volutpat.</p>
-                <div class="clients_slide owl-carousel">
+                <div class="owl-carousel">
                     <div class="img_bx">
                         <img src="images/f image 1.png" class="img-fluid" alt="">
                     </div>
@@ -480,6 +480,12 @@
                     </div>
                     <div class="img_bx">
                         <img src="images/f image 5.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="img_bx">
+                        <img src="images/f image 1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="img_bx">
+                        <img src="images/f image 2.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -577,7 +583,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function(){
-            $(".owl-carousel").owlCarousel({
+            $(".banner .owl-carousel").owlCarousel({
                 items:1,
                 loop:true,
                 autoplay:true,
@@ -592,14 +598,13 @@
             });
         });
         $(document).ready(function(){
-            $(".clients_slide").owlCarousel({
-                items:2,
+            $(".clients .owl-carousel").owlCarousel({
+                items:5,
                 loop:true,
                 autoplay:true,
                 autoplayTimeout:3000,
                 autoplayHoverPause:true,
                 margin:12,
-                center:true,
                 smartSpeed:1500,
                 nav:true,
                 navText:["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
