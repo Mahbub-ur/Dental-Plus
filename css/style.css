@@ -104,7 +104,7 @@ header .right a p:hover{
     background-size: cover;
 }
 .banner .content{
-    min-height: 80vh;
+    min-height: 83vh;
     align-items: center;
     position: relative;
 }
@@ -159,10 +159,13 @@ header .right a p:hover{
     position: absolute;
     bottom: 0;
 }
+.owl-nav{
+    display: flex;
+}
 .owl-nav .owl-prev i{
     position: absolute;
     top: 50%;
-    left: -9%;
+    left: -5%;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
@@ -176,7 +179,7 @@ header .right a p:hover{
 .owl-nav .owl-next i{
     position: absolute;
     top: 50%;
-    right: -9%;
+    right: -5%;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
@@ -203,12 +206,12 @@ header .right a p:hover{
     height: 10px;
     border-radius: 50%;
     background-color: #777777;
-    margin: 2px;
+    margin: 3px;
     transition: 0.3s all ease-in-out;
 }
 .owl-dots .owl-dot.active span{
     background-color: #f59165;
-    width: 25px !important;
+    width: 30px !important;
     border-radius: 15px;
 }
 .owl-dots .owl-dot:hover span{
@@ -269,7 +272,7 @@ header .right a p:hover{
 }
 .doctors img{
     width: fit-content;
-    margin: auto;
+    margin: 0 auto 10px;
 }
 .doctors p{
     font-size: 14px;
@@ -282,6 +285,7 @@ header .right a p:hover{
 }
 .doctors .item .img_bx{
     width: 100%;
+    overflow: hidden;
     position: relative;
 }
 .doctors .item .img_bx::before{
@@ -291,7 +295,7 @@ header .right a p:hover{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #454545; 
+    background-color: #454545;
     opacity: 0.7;
     transition: 0.3s all ease-in-out;
 }
@@ -522,7 +526,7 @@ header .right a p:hover{
 }
 .clients{
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 50px 0;
     background-image: url(../images/clients\ bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -548,6 +552,7 @@ header .right a p:hover{
 .clients .img_bx{
     width: auto;
     display: inline-block;
+    margin-bottom: 15px;
 }
 .primary_footer{
     background-image: url(../images/primary_footer_bg.png);
@@ -582,10 +587,14 @@ header .right a p:hover{
 .primary_footer .item{
     display: flex;
     align-items: center;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
+}
+.primary_footer .item .icon{
+    margin: 0;
+    display: block;
 }
 .primary_footer .item i{
-    width: 50px;
+    min-width: 50px;
     height: 50px;
     display: flex;
     justify-content: start;
@@ -598,9 +607,7 @@ header .right a p:hover{
     font-weight: 500;
     line-height: 24px;
     color: #b4b4b4;
-}
-.primary_footer .item .p1{
-    margin-left: 15px;
+    margin: 0;
 }
 .primary_footer h1{
     color: #ffffff;
@@ -632,7 +639,7 @@ header .right a p:hover{
     width: 100%;
 }
 .primary_footer form input{
-    width: 77%;
+    min-width: 75%;
     border-radius: 0;
 }
 .primary_footer form input:focus{
@@ -640,6 +647,7 @@ header .right a p:hover{
 }
 .primary_footer form button{
     background-color: #f59165;
+    min-width: 25%;
     border-radius: 0;
     color: #ffffff;
     text-transform: uppercase;
