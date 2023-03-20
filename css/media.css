@@ -1,0 +1,164 @@
+@media (max-width: 1440px) {
+    .owl-nav .owl-next i{
+        right: -3%;
+    }
+}
+@media (max-width: 1024px) {
+    .primary_header .info .content h3{
+        font-size: 12px;
+    }
+    .banner .content h3{
+        font-size: 32px;
+    }
+    .banner .content h1{
+        font-size: 38px;
+    }
+    .banner .owl-nav .owl-prev i{
+        left: -4%;
+    }
+    .banner .owl-nav .owl-next i{
+        width: 28px;
+    }
+    .banner .content .button a{
+        font-size: 14px;
+    }
+    .agency .content{
+        left: -5%;
+    }
+    .doctors .item h3{
+        font-size: 18px;
+    }
+    .doctors h1, .agency .content h1, .services h1, .pricing h1, .clients h1{
+        font-size: 30px;
+    }
+    .services .item .header h3{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .pricing .item h3{
+        font-size: 26px;
+    }
+    .pricing .item .price h1{
+        font-size: 38px;
+    }
+    .pricing .item a{
+        padding: 8px 15px;
+    }
+    .owl-carousel .owl-item img{
+        width: 95%;
+    }
+    .clients .owl-nav .owl-prev i{
+        left: -2%;
+    }
+    .clients .owl-nav .owl-next i{
+        right: -2%;
+    }
+    .primary_footer form button{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 768px) {
+    .banner .content h3{
+        font-size: 26px;
+    }
+    .banner .content h1{
+        font-size: 27px;
+    }
+    .banner .content .button a{
+        font-size: 12px;
+    }
+    .agency .content h1{
+        font-size: 23px;
+    }
+    .agency .content .item img{
+        width: 26px;
+    }
+    .agency .content .item h3{
+        font-size: 18px;
+    }
+    .agency .img_bx{
+        width: 68%;
+    }
+    .doctors .item h3{
+        font-size: 16px;
+    }
+    .services .item .header h3{
+        font-size: 16px;
+        line-height: 1;
+    }
+    .doctors h1, .services h1, .pricing h1, .clients h1{
+        font-size: 28px;
+    }
+    .pricing .item a{
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+    .pricing .item .price h1{
+        font-size: 32px;
+    }
+    .pricing .item h3{
+        font-size: 22px;
+    }
+    .clients .owl-dots{
+        bottom: -20%;
+    }
+    .primary_footer form input::placeholder{
+        font-size: 12px;
+    }
+    .primary_footer form button{
+        font-size: 7px;
+    }
+    .primary_footer .icon h4{
+        font-size: 14px;
+    }
+    .primary_footer .icon{
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+@media (max-width: 425px) {
+    .navbar-toggler:focus header .right{
+        position: relative;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .banner .content{
+        text-align: center;
+        min-height: 57vh;
+    }
+    .banner .content h3{
+        margin-top: 20px;
+    }
+    .banner .owl-carousel .owl-item img{
+        display: none;
+    }
+    .banner .content .button a{
+        margin-top: 40px;
+    }
+    .agency .content{
+        left: 0;
+
+    }
+    .agency .content h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .agency .img_bx{
+        display: none;
+    }
+    .services .item .header h3{
+        font-size: 18px;
+        line-height: unset;
+    }
+    .primary_footer form button{
+        font-size: 14px;
+    }
+}

@@ -75,6 +75,9 @@ header .right{
     background-color: #f59165;
     padding: 14px 15px;
     transform: skew(-20deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header .right i{
     color: #ffffff;
@@ -96,6 +99,14 @@ header .right a p{
 }
 header .right a p:hover{
     text-decoration: underline;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: 1px solid;
+}
+header button i{
+    font-size: 24px;
+    color: var(--color_1);
 }
 .banner{
     background-image: url(../images/banner\ bg.png);
