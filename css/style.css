@@ -14,8 +14,21 @@ h1, h2, h3, h4, h5, h6, p, a{
 .primary_header{
     margin-top: 10px;
 }
+.primary_header .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary_header .info_main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .primary_header .info{
     margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .primary_header .info .icon{
     margin-right: 15px;
@@ -36,6 +49,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 header{
     background-color: #00cce1;
+    overflow: hidden;
 }
 header .left ul{
     list-style: none;
